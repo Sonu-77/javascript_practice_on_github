@@ -1,1 +1,1 @@
-# javascript_practice_on_github
+# javascript Practice on Github
