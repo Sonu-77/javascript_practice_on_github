@@ -34,13 +34,66 @@
 // console.log(nowdate.toUTCString());
 
 
-let anyDate= new Date("2-02-2009")
+// let anyDate= new Date("2-02-2009")
 
-console.log(anyDate.toLocaleDateString("default",{
-    weekday:"narrow",
-    year:"2-digit",
-    month:"long"
-}));
+// console.log(anyDate.toLocaleDateString("default",{
+//     weekday:"narrow",
+//     year:"2-digit",
+//     month:"long"
+// }));
+
+
+// let arr=[1,2,3,45,56,7,7]
+
+// console.log("Arr",arr);
+
+// let slicearr=arr.slice(0,4)
+
+// console.log("Slice",slicearr)
+// console.log("After Slice",arr);
+
+// let splicearr=arr.splice(0,4)
+
+// console.log("Splice",splicearr)
+// console.log("After Splice",arr);
+
+let arr1=["sonu","aman","ankit","priya"]
+
+let arr2=["gyan","pintu","palak","rohan"]
+
+let arr3=["ramin","sam","john"]
+
+// arr1.push(arr2)
+
+// console.log(arr1);
+
+// let concatarr=arr1.concat(arr2)
+
+// console.log(concatarr)
+
+let allname=[...arr1,...arr2,...arr3]
+// console.log(allname);
+
+let arrmixed=[4,3,56,[4,5,6,7],[46,[5,7,89,32]]]
+
+// console.log((arrmixed.flat(1)));
+
+console.log(Array.isArray("Sonu"))
+
+console.log(Array.of("Sonu"))
+
+console.log(Array.from("Sonu"))
+console.log(Array.("Sonu"))
+
+
+
+
+
+
+
+
+
+
 
 
 
