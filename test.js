@@ -78,23 +78,52 @@ let arrmixed=[4,3,56,[4,5,6,7],[46,[5,7,89,32]]]
 
 // console.log((arrmixed.flat(1)));
 
-console.log(Array.isArray("Sonu"))
+// console.log(Array.isArray("Sonu"))
 
-console.log(Array.of("Sonu"))
+// console.log(Array.of("Sonu"))
 
-console.log(Array.from("Sonu"))
-console.log(Array.("Sonu"))
+// console.log(Array.from("Sonu"))
+// console.log(Array.of("Sonu"))
+
+// Object 
+
+const obj1={
+    name: "Proveb",
+    course:"Chai aur code",
+    topic:"Javascript",
+    level:"Basic"
+}
+
+// const obj2={
+//     Nme: "Risika",
+//     Cus:"Chai aur code",
+//     toi:"Python",
+//     lev:"Advance"
+// }
+
+obj1.marks=80
+
+// obj2.marks=85
+
+// console.log(obj1);
+// console.log(obj2);
+
+
+// console.log(obj1.course)
+
+// const obj3={obj1,obj2}
+// console.log(obj3);
+
+// const objcombine= Object.assign({},obj1,obj2)
+// console.log(objcombine);
+
+// const objcombinespread = {...obj1, ...obj2};
+// console.log(objcombinespread);
 
 
 
+// Destructing Object
 
+const {name:naaaaam}=obj1
 
-
-
-
-
-
-
-
-
-
+console.log(naaaaam)
