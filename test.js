@@ -94,12 +94,12 @@ const obj1={
     level:"Basic"
 }
 
-// const obj2={
-//     Nme: "Risika",
-//     Cus:"Chai aur code",
-//     toi:"Python",
-//     lev:"Advance"
-// }
+const obj2={
+    Nme: "Risika",
+    Cus:"Chai aur code",
+    toi:"Python",
+    lev:"Advance"
+}
 
 obj1.marks=80
 
@@ -124,6 +124,28 @@ obj1.marks=80
 
 // Destructing Object
 
-const {name:naaaaam}=obj1
+// const {Nme:naaaaam}=obj2
 
-console.log(naaaaam)
+// console.log(naaaaam);
+
+
+// IIFE
+
+// (function talk(name){
+//      console.log(`${name}, how r u doing`)
+// })("Sonu");
+
+// // Implicite Function
+// ((num1,num2)           =>            (console.log(num1+num2)))(1,7);  
+
+// (() =>{
+//     console.log(`Welcome to implicite function example`)
+// })();
+
+// this practice
+
+console.log(this);
+
+(function thiswhat(){
+    console.log(this)
+})();
