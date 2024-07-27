@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice DOM</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const divelement = document.createElement("div")
+    console.log(divelement)
+    divelement.className= "main-div"
+    divelement.id= "div-id"
+    divelement.setAttribute("title","DOM creating")
+    divelement.innerHTML="The practice of creating/Maniplating of HTML by JS"
+    divelement.style.backgroundColor="purple"
+    divelement.style.fontSize="40px"
+    divelement.style.height="100px"
+    divelement.style.width="100%"
+    divelement.style.color="white"
+    divelement.style.display="flex"
+    divelement.style.alignItems="center"
+    divelement.style.justifyContent="center"
+    divelement.style.textAlign="center"
+    document.body.appendChild(divelement)
+
+
+
+</script>
+</html>

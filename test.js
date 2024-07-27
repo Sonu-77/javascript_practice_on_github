@@ -84,6 +84,9 @@ let arrmixed=[4,3,56,[4,5,6,7],[46,[5,7,89,32]]]
 
 // console.log(Array.from("Sonu"))
 // console.log(Array.of("Sonu"))
+// console.log(Array.of(1,2,3,4,5,6));
+console.log(Array.from("dbfbeiruwhfou3hbrefhowiehbfkjb2wljro2h"));
+
 
 // Object 
 
@@ -244,4 +247,4 @@ const totalcartprice= shoppingCart.reduce( (result,currprice)=>{
     return result+Number(currprice.price)
 },0)
 
-console.log(totalcartprice);
+// console.log(totalcartprice);
