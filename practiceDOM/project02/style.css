@@ -74,6 +74,7 @@
     border: 1px solid wheat;
     border-radius: 2%;
     color: brown;
+    text-align: center;
 }
 #form input::placeholder{
     color: rgb(234, 76, 76);

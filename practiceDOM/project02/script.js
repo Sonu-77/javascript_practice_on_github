@@ -3,9 +3,6 @@
 
 const form=document.querySelector("form")
 
-
-
-
 form.addEventListener("submit",(e) => {
     e.preventDefault()
     const height=parseInt(document.querySelector("#height").value)
@@ -15,6 +12,8 @@ form.addEventListener("submit",(e) => {
 
     if (!isNaN(height) && !isNaN(weight)) {
         const resultvalue= (weight/(height*height))*10000
+        result.style.textAlign="center"
+        result.style.fontSize="2vw"
         result.innerHTML=`The BMI is ${resultvalue.toFixed(2)}`    
         if (resultvalue<=18.5 ) {
             resultDesp.style.display="block"
@@ -28,7 +27,9 @@ form.addEventListener("submit",(e) => {
             resultDesp.innerHTML=`You are considered overweight `
         }
     }else{
-        resultDesp.innerHTML="Please enter the required Height and Weight to calculate the BMI"
+        result.style.textAlign="center"
+        result.style.fontSize="1.1vw"
+        result.innerHTML="Please enter the required Height and Weight to calculate the BMI"
     }
 
     
