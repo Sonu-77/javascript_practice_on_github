@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#home{
+    margin-left: 2%;
+    font-size: 2vw;
+    color: brown;
+}
+
+.nav h3{
+    margin-right: 2%;
+    font-size: 2vw;
+}
+
+.nav a{
+    text-decoration: none;
+    color: brown;
+}
+
+.title{
+    display: flex;
+    color: rgb(255, 182, 93);
+    font-size: 3vw;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%
+    
+
+}
+
+.title h3{
+   
+    width: auto;
+    border-bottom:  2px solid rgb(120, 1, 1);
+}
+
+#form{
+    height: 30vw;
+    width:30vw ;
+    /* background-color: aqua; */
+    margin-left: 35%;
+    margin-top: 3%;
+    
+}
+
+#form p{
+    background-color:burlywood; 
+    margin-top: 3%;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+ }
+
+
+#form input{
+    width: 13vw;
+    background-color: rgb(245, 226, 204);
+    border: 1px solid wheat;
+    border-radius: 2%;
+    color: brown;
+}
+#form input::placeholder{
+    color: rgb(234, 76, 76);
+    font-weight: 500;
+}
+
+button{
+    height: 2vw;
+    width: 10vw;
+    margin-top: 8%;
+    margin-left: 35%;
+    background-color: cadetblue;
+    font-size: 1.5vw;
+    color: burlywood;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+#result{
+    height:6vw ;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color:brown;
+    font-weight: 900;
+    margin-top: 4%;
+    /* opacity: 0; */
+    
+}
+
+#result-desp{
+    height:4vw ;
+    width: 30vw;
+    background-color: antiquewhite;
+    font-size: 2vw;
+    color:brown;
+    font-weight: 900;
+    margin-top: 4%;
+    display: none;
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+.weight-guide{
+    height: 10vw;
+    width: 30vw;
+    background-color: rgb(203, 122, 0);
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weight-guide h3{
+    font-size: 1.5vw;
+    border-bottom: 2px solid rgb(192, 244, 110);
+    color:rgb(213, 245, 245);
+}
+
+.weight-guide ul{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3vw;
+    margin-top: 5%;
+    color: beige;
+}
+.weight-guide li{
+    margin-top: 2%;
+}
+
+

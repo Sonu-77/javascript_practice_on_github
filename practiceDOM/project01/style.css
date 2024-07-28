@@ -31,7 +31,7 @@
 .tile-space{
     height: 44.5vw;
     width: 100%;
-    background-color: aqua;
+    background-color:#ffff;
     display: flex;
     justify-content: space-evenly;
     /* align-items: center; */
@@ -39,6 +39,7 @@
 }
 
 .box{
+    cursor: pointer;
     height: 7vw;
     width: 7vw;
     background-color: cadetblue;
@@ -48,6 +49,7 @@
     text-align: center;
     border-radius: 5%;
     margin-top: 10%;
+    border:1px solid black;
 
 }
 
