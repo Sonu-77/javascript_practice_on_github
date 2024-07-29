@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.nav{
+    height: 4vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#home{
+    margin-left: 2%;
+    font-size: 2vw;
+    color: brown;
+}
+
+.nav h3{
+    margin-right: 2%;
+    font-size: 2vw;
+}
+
+.nav a{
+    text-decoration: none;
+    color: brown;
+}
+
+.title{
+    display: flex;
+    color: rgb(255, 182, 93);
+    font-size: 3vw;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%
+    
+
+}
+
+.title h3{
+   
+    width: auto;
+    border-bottom:  2px solid rgb(120, 1, 1);
+}
+
+.game-space{
+    min-height: 40vw;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wooden-bg{
+    min-height: 35vw;
+    width: 40vw;
+    background-color: #37a395; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head-bar{
+    /* background-color: brown; */
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head-bar i{
+    font-size: 1.5vw;
+    padding-left: 2%;
+    color: bisque;
+}
+
+.botton-space{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    background-color: rgb(106, 73, 33);
+    /* background-color: #431703fd; */
+    place-items: center;
+    min-height: 30vw;
+    min-width:  30vw;
+    border-radius: 2%;
+}
+
+
+
+.botton-box{
+    height: 8vw;
+    width: 8vw;
+    background-color: #0a10496d;
+    border: 2px solid white;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: bisque;
+    box-shadow: inset;
+}
+
+.player-space{
+    height: 5vw;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.player{
+    height: 2vw;
+    width: 10vw;
+    background-color:  rgb(106, 73, 33);
+    border: 2px solid wheat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+}
