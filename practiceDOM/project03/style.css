@@ -90,7 +90,7 @@ body{
     height: 2vw;
     width: 8vw;
     background-color: #5e503f;
-    border: 2px solid #ede0d4;
+    border: 0.1vw solid #ede0d4;
     border-radius: 0.5vw;
     display: flex;
     justify-content: center;
@@ -117,7 +117,7 @@ body{
     height: 2vw;
     width: 5vw;   
     background-color: #5e503f;
-    border: 2px solid wheat;
+    border: 0.1vw solid wheat;
     border-radius:0.5vw;
     display: flex;
     justify-content: center;
@@ -216,6 +216,20 @@ body{
     font-size: 4vw;
     color: bisque;
     box-shadow: inset;
+}
+
+
+.myname{
+    /* background-color: #fff; */
+    width: 20vw;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: 1.2vw;
+    color: #fbf2c0;
+    
+
 }
 
 

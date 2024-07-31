@@ -50,6 +50,9 @@ form.addEventListener("submit",(e)=>{
     })
 
     function checkwinner(player1name,player2name){
+
+        let draw = true
+
         for (const index of winningConditions) {
             let positionVal0=buttons[index[0]].textContent
             let positionVal1=buttons[index[1]].textContent
@@ -64,19 +67,29 @@ form.addEventListener("submit",(e)=>{
                 if (positionVal0==positionVal1 && positionVal1==positionVal2) {
                     if (positionVal0 && positionVal1 && positionVal2 =="X") {
                         winner.style.display="block"
-                        winner.innerHTML=`Winner of the match is ${player1name} `
+                        winner.innerHTML=`Winner of the match is Player-X ${player1name} `
+                        for (let box of buttons) {
+                            box.disabled=true
+                        }
                     }else{
                         winner.style.display="block"
-                        winner.innerHTML=`Winner of the match is ${player2name} `
+                        winner.innerHTML=`Winner of the match is Player-O ${player2name} `
+                        for (let box of buttons) {
+                            box.disabled=true
+                        }
                     }
                     // console.log(`Winner is declared`)
-                }else{
-                    // console.log(`continue playing`)
                 }
-            }else{
-                // console.log(`complete the game`);
+            }
+            if(positionVal0==="" || positionVal1==="" || positionVal2===""){
+                draw=false
             }
         }
+        if (draw) {
+            winner.style.display="block"
+            winner.innerHTML=`Match ended in draw challange again!`
+        }
+
     }
 
     restart.addEventListener("click",(e)=>{
